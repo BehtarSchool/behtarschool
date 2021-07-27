@@ -17,6 +17,9 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+nav img{
+    width: 130px;
+}
 .nav-links{
     flex: 1;
     text-align: right;
@@ -228,44 +231,6 @@ p{
 .sub-header h1{
     margin-top: 90px;
 }
-
-/*.std{
-    width: 80%;
-    margin: auto;
-    text-align: center;
-    padding-top: 100px;
-}
-.row1{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
-}
-.col1{
-    flex-basis: 31%;
-    background: rgb(199, 236, 240);
-    border-radius: 10px;
-    margin-bottom: 5%;
-    padding: 20px 10px;
-    box-sizing: border-box;
-}
-h3{
-    text-align: center;
-    font-weight: 600;
-    margin: 10px 0;
-}
-.col1 ul li{
-    list-style: none;
-    display: inline-block;
-    padding: 8px 12px;
-    position: relative;
-} 
-@media(max-width: 700px){
-    .row1{
-        flex-direction: column;
-        scroll-behavior: smooth;
-    }
-}*/
-
 
 
 /*---------------computer try section--------------*/
