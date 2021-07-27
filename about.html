@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>BHETAR SCHOOL</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <section class="sub-header2">
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times-circle" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">होम</a></li>
+                        <li><a href="index.html#course">अभ्यासक्रम</a></li>
+                        <li><a href="contact.html">संपर्क साधा </a></li>
+                        <li><a href="">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+          <h1>About us</h1>
+        </section> 
+
+<!----------about us page---------->
+<section class="about">
+    <div class = "about-image">
+        <!-- image here -->
+        <div class = "about-content">
+            <h2>व्हिजनरी फाइटर्स</h2>
+            <span><!-- line here --></span>
+    
+            <p>व्हिजनरी फाइटर्स ही एक सामाजिक संस्था आहे जी गरीबांच्या उन्नतीसाठी, समाजातील दुर्बल घटकांच्या सक्षमीकरणासाठी  काम करते.</p>
+    
+            <h2>बेहतर स्कूल </h2>
+            <span><!-- line here --></span>
+    
+            <p>भारतातील डिजिटल विभाजनामुळे ग्रामीण आणि शहरी भागातील विद्यार्थ्यांचे मोठ्या प्रमाणात शिकण्याचे नुकसान झाले आहे. तंत्रज्ञान आणि इंटरनेटची उपलब्धता तातडीची गरज असून यापुढे लक्झरी असू शकत नाही. डिजिटल उपक्रमांमुळे भारतातील ग्रामीण शिक्षणामधील काही महत्त्वाच्या समस्या सोडविण्यात मदत होऊ शकते.
+                बेहतर स्कूल हा एक प्रकल्प आहे ज्याचा उद्देश “डिजिटल पायाभूत सुविधा” पुरविणे आणि पुण्याच्या प्राथमिक शाळांना शिक्षणाची संसाधने तयार करण्यात मदत करणे हा आहे</p> 
+
+            <ul class = "links">
+                <li><a href = "#">आमचा संघ</a></li>
+    
+                <div class = "vertical-line"></div>
+    
+                <li><a href = "#">आमचे शिक्षक</a></li>
+    
+                <div class = "vertical-line"></div>
+                
+                <li><a href = "#">आमचे इंटर्न </a></li>
+            </ul>
+    
+            <ul class = "about-icons">
+                <li>
+                    <i class = "fa fa-facebook"></i>
+                </li>
+                <li>
+                    <i class = "fa fa-twitter"></i>
+                </li>
+                <li>
+                    <i class = "fa fa-instagram"></i>
+                </li>
+                <li>
+                    <i class = "fa fa-linkedin"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    
+</section>
+
+
+<!-------footer----------->
+<section class="footer">
+    <h4>About us</h4>
+    <p>Act as if whatever you do makes a difference</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made by xyz | pqr</p>
+</section>
+
+
+
+
+
+    
+<!--------javscript for toggle menu---------->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
