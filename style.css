@@ -557,7 +557,7 @@ margin-top: 90px;
 
 /*----------------about us 2 page----------------------*/
 
-/*-------------our team section-----------*/
+/*-------------our teachers section-----------*/
 body{
 	margin:0;
 	font-family: 'Open Sans', sans-serif;
@@ -675,6 +675,12 @@ body{
 .section-teachers .team-items .item .inner .info .social-links a:hover{
 	box-shadow: 0 0 10px #000;
 }
+.section-teachers .teachers_team{
+    display: block;
+    margin: auto;
+    width: 60%;
+	border-radius: 8px;
+}
 
 /*responsive*/
 @media(max-width: 991px){
@@ -691,6 +697,11 @@ body{
        max-width: calc(100%);
 
    }
+   .section-teachers .teachers_team{
+    margin: auto;
+    width: 100%;
+	border-radius: 8px;
+}
 }
 
 
