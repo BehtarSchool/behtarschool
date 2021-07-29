@@ -63,8 +63,8 @@ nav img{
     text-align: center;
 }
 .text-box h1{
-    font-size: 100px;
-    transform: translate(3%,-90%);
+    font-size: 80px;
+    transform: translate(3%,-120%);
 }
 .text-box p{
     font-size: 25px;
@@ -90,13 +90,17 @@ nav img{
 nav .fa{
     display: none;
 }
-
+.school-name p{
+    font-size: 25px;
+    color: whitesmoke;
+    transform: translate(35%,190%);
+}
 .shape{
     position: absolute;
     bottom: -.2rem; left: 0;
     height: 10rem;
     width: 100%;
-    background: url(ani.png);
+    background: url(img/shape.png);
     block-size: 100rem 15rem;
     filter: drop-shadow(0 -.1rem .1rem rgba(0,0,0,.2));
     animation: animate 15s linear infinite;
@@ -114,10 +118,15 @@ nav .fa{
         background-image: linear-gradient(rgb(4,9,30,0.7),rgba(4,9,30,0.7)), url(img/1.jpeg);      
     }
     .text-box h1{
-        font-size: 50px;
+        font-size: 45px;
     }
     .text-box p{
         font-size: 20px;
+    }
+    .school-name p{
+        font-size: 20px;
+        color: whitesmoke;
+        transform: translate(3%,1000%);
     }
     .nav-links ul li{
         display: block;
@@ -315,9 +324,18 @@ p{
 }
 .para p{
     text-align: center;
-    font-size: medium;
+    font-size: 25px;
+    font-weight: bold;
 }
 
+@media(max-width: 700px){
+    .para p{
+        text-align: center;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+}
 /*-----------template try section-----------*/
 .box-container{
     display: flex;
@@ -454,11 +472,12 @@ margin-top: 90px;
 }
 .about-content h2{
     padding-top: 20px;
-    font-size: 28px;
+    font-size: 35px;
     opacity: 0.9;
 }
 
 .about-content p{
+    font-size: 18px;
     padding-bottom: 15px;
     font-weight: 300;
     opacity: 0.7;
