@@ -96,32 +96,6 @@ nav .fa{
     transform: translate(34%,-60%);
 }
 
-/* ------------ sliding text ---------------
-.slide-left {
-  width:100%;
-  overflow:hidden;
-}
-.slide-left p {
-    font-size: 25px;
-    color: whitesmoke;
-    position: absolute;
-    top: 30px;
-    width: 50%;
-    animation: slide-left 5s linear infinite;
-}
-
-@keyframes slide-left {
-  from {
-    margin-left: 20%;
-    width: 300%; 
-  }
-
-  to {
-    margin-left: 35%;
-    width: 100%;
-  }
-}*/
-
 @media(max-width: 700px){
     .header{
         background-image: linear-gradient(rgb(4,9,30,0.7),rgba(4,9,30,0.7)), url(img/1.jpeg);      
@@ -161,26 +135,7 @@ nav .fa{
     .nav-links ul{
         padding: 15px;
     }    
-    /*.slide-left p {
-        font-size: 20px;
-        color: whitesmoke;
-        position: absolute;
-        bottom: 30px;
-        width: 50%;
-        animation: slide-left 10s linear infinite;
-    }
-    @keyframes slide-left {
-        from {
-          margin-left: 100%;
-          width: 300%; 
-        }
-      
-        to {
-          margin-left: 0%;
-          width: 100%;
-        }
-      }*/
-      .slide-left p{
+          .slide-left p{
         font-size: 24px;
         color: whitesmoke;
         transform: translate(2%,-10%);
@@ -271,7 +226,7 @@ p{
 .sub-header{
     height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgb(4,9,30,0.7),rgba(4,9,30,0.7)), url(img/7.jpg);
+    background-image: linear-gradient(rgb(4,9,30,0.7),rgba(4,9,30,0.7)), url(img/comp_coverphoto1.jpeg);
     background-position: center;
     background-size: cover;
     text-align: center;
