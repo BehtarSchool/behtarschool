@@ -16,8 +16,9 @@
     div#slider figure { 
       position: relative;
       width: 500%;
-      margin: 10px;
+      margin: 0px;
       left: 0px;
+      top: 0px;
       text-align: left;
       font-size: 0;
       animation: 15s slidy infinite; 

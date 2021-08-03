@@ -451,7 +451,6 @@ margin-top: 90px;
 .about-image img{
     width: 50%;
     height: 50%;
-    padding: 50px;
 }
 .about-content{
     background: #fff;
@@ -476,7 +475,7 @@ margin-top: 90px;
     margin: 0 auto;
     line-height: 1.7;
 }
-.links{
+/*.links{
     margin: 15px 0;
 }
 .links li{
@@ -519,7 +518,7 @@ margin-top: 90px;
 }
 .about-icons li i:hover{
     color: #f44336;
-}
+}*/
 .info-link{
     margin: 15px 0;
 }
@@ -595,7 +594,7 @@ margin-top: 90px;
         font-size: 15px;
     }
     .footer{
-        padding-top: 100px;
+        padding-top: 400px;
     }
 }
 
