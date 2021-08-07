@@ -21,6 +21,8 @@
       top: 0px;
       text-align: left;
       font-size: 0;
+      padding-top: 50PX;
       animation: 15s slidy infinite; 
+      background-color: #009688;
     }
     
